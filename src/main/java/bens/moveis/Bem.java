@@ -26,7 +26,6 @@ public class Bem {
         this.reservadoPara = null;
     }
 
-    // Getters, Setters e toString omitidos para brevidade
     public boolean isDoado() { return doado; }
     public void marcarComoDoado() { this.doado = true; this.reservadoPara = null; }
     public void reservarPara(String nome) { this.reservadoPara = nome; }
